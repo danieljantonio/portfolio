@@ -1,9 +1,9 @@
 import { FC, ReactNode } from 'react';
 import Header from '../components/common/header.common';
 
-type Props = {
+interface Props {
 	children: ReactNode;
-};
+}
 
 const MainLayout: FC<Props> = ({ children }) => {
 	return (
