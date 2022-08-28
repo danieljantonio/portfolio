@@ -8,6 +8,7 @@ const Header: FC = () => {
 			<Link href='/about'>About</Link>
 			<Link href='/projects'>Projects</Link>
 			<Link href='/tools'>Tools</Link>
+			<Link href='/colors'>Colors</Link>
 			{/* <div>Toggle Dark Mode</div> */}
 		</nav>
 	);
