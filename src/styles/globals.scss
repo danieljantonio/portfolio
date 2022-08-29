@@ -1,3 +1,5 @@
+@import './variables.scss';
+
 @font-face {
 	font-family: 'Mononoki';
 	src: url('/static/fonts/mononoki-Regular.woff') format('woff'), url('/static/fonts/mononoki-Regular.woff2') format('woff'), url('/static/fonts/mononoki-Regular.ttf');
@@ -19,6 +21,13 @@ body {
 	font-family: Mononoki, Monaco, 'DejaVu Sans Mono', 'Lucida Console', monospace;
 	font-size: 1.125rem;
 	font-weight: bold;
+	background-color: $bg-primary;
+	color: $text-primary;
+}
+
+main {
+	max-width: 1420px;
+	margin: 0px auto;
 }
 
 a {
