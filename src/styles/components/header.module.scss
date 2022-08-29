@@ -1,0 +1,26 @@
+@import '../../styles/variables.scss';
+
+.nav {
+	padding: 5px;
+	display: flex;
+	justify-content: space-between;
+	a {
+		padding: 0.5rem;
+		margin: 0.5rem;
+	}
+	.nav-items {
+		display: flex;
+		.nav-active {
+			border: 2px solid grey;
+			background-color: $bg-secondary;
+			color: $text-primary;
+		}
+		a {
+			border-radius: 0.5rem;
+			border: 2px solid transparent;
+			&:hover {
+				border: 2px solid $bg-highlight;
+			}
+		}
+	}
+}
