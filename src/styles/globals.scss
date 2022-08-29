@@ -19,10 +19,14 @@ body {
 	padding: 0;
 	margin: 0;
 	font-family: Mononoki, Monaco, 'DejaVu Sans Mono', 'Lucida Console', monospace;
-	font-size: $text-rg;
 	font-weight: bold;
 	background-color: $bg-primary;
+	font-size: $text-rg;
 	color: $text-primary;
+	@media (max-width: 600px) {
+		font-size: $text-sm;
+	}
+	overflow: hidden;
 }
 
 main {
