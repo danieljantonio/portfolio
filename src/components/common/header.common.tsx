@@ -9,7 +9,9 @@ const Header: FC = () => {
 		<div className={styles['nav-container']}>
 			<div className={styles['nav-gradient']}></div>
 			<nav className={styles['nav']}>
-				<Link href='/'>Jedidiah.dev</Link>
+				<Link href='/'>
+					<a className={styles['brand']}>Jedidiah.dev</a>
+				</Link>
 				<div className={styles['nav-items']}>
 					<Link href='/about'>
 						<a className={pathname === '/about' ? styles['nav-active'] : ''}>About</a>
