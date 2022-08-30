@@ -22,6 +22,9 @@ const Header: FC = () => {
 					<Link href='/tools'>
 						<a className={pathname === '/tools' ? styles['nav-active'] : ''}>Tools</a>
 					</Link>
+					<Link href='/colors'>
+						<a className={pathname === '/colors' ? styles['nav-active'] : ''}>Colors</a>
+					</Link>
 				</div>
 			</nav>
 		</div>

@@ -6,13 +6,17 @@ const Colors: NextPage = () => {
 	return (
 		<>
 			<div style={{ display: 'flex', marginBottom: 50 }}>
-				{colorsDark.map((color) => (
-					<div style={{ height: 100, width: 100, backgroundColor: color, color: 'white', textAlign: 'center' }}>{color}</div>
+				{colorsDark.map((color, i) => (
+					<div style={{ height: 100, width: 100, backgroundColor: color, color: 'white', textAlign: 'center' }} key={i}>
+						{color}
+					</div>
 				))}
 			</div>
 			<div style={{ display: 'flex' }}>
-				{colorsLight.map((color) => (
-					<div style={{ height: 100, width: 100, backgroundColor: color, textAlign: 'center' }}>{color}</div>
+				{colorsLight.map((color, i) => (
+					<div style={{ height: 100, width: 100, backgroundColor: color, textAlign: 'center' }} key={i}>
+						{color}
+					</div>
 				))}
 			</div>
 		</>
