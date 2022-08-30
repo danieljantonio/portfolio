@@ -1,9 +1,11 @@
 @import '../../styles/variables.scss';
 
-.nav-gradient {
+.gradient {
 	width: 100vw;
-	height: 3px;
-	background: linear-gradient(to right, #e39600, #ea4c89, #8f48eb, #1da1f2);
+	height: 4px;
+	background: linear-gradient(90deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient-hover 30s ease infinite;
 }
 
 .nav {
@@ -16,24 +18,6 @@
 		margin: 0.5rem 0.2rem;
 		text-align: center;
 		vertical-align: middle;
-	}
-	.brand {
-		padding: 0.5rem;
-		margin: 0.5rem 0.2rem;
-		position: relative;
-		&::after {
-			position: absolute;
-			background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-			background-size: 400% 400%;
-			content: '';
-			height: 2px;
-			width: 100%;
-			bottom: 4px;
-			left: 0;
-			margin: auto;
-			animation: gradient-hover 5s ease infinite;
-			animation-play-state: running;
-		}
 	}
 	.nav-items {
 		display: flex;

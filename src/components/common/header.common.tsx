@@ -7,7 +7,7 @@ const Header: FC = () => {
 	const { pathname } = useRouter();
 	return (
 		<div className={styles['nav-container']}>
-			<div className={styles['nav-gradient']}></div>
+			<div className={styles['gradient']}></div>
 			<nav className={styles['nav']}>
 				<Link href='/'>
 					<a className={styles['brand']}>Jedidiah.dev</a>
