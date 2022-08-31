@@ -14,26 +14,26 @@
 	justify-content: space-between;
 	padding: 0.25rem 1rem;
 	a {
-		padding: 0.5rem;
+		padding: 0.25rem 1rem;
 		margin: 0.5rem 0.2rem;
 		text-align: center;
 		vertical-align: middle;
+		font-size: $text-sm;
 	}
 	.brand {
-		border: 2px solid transparent;
+		color: $text-light;
 	}
 	.nav-items {
 		display: flex;
 		.nav-active {
-			border: 2px solid grey;
-			background-color: $bg-secondary;
-			color: $text-primary;
+			background-color: $bg-highlight;
+			color: $text-light;
 		}
 		a {
-			border-radius: 0.5rem;
-			border: 2px solid transparent;
+			border-radius: 0.25rem;
 			&:hover {
-				border: 2px solid $bg-highlight;
+				background-color: $bg-tertiary;
+				color: $text-light;
 			}
 		}
 	}
