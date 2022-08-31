@@ -17,8 +17,8 @@ const Card: FC<Props> = ({ title, body, href, stack }) => {
 		<div className={s['card']} onClick={() => router.push(href)}>
 			<div className={s['card-brand']}></div>
 			<div className={s['card-content']}>
-				<div className={s['card-title']}>
-					<div>{title}</div>
+				<div className={s['card-header']}>
+					<div className={s['card-title']}>{title}</div>
 					{stack ? <div>{stack}</div> : <></>}
 				</div>
 				<div className={s['card-body']}>{body}</div>
