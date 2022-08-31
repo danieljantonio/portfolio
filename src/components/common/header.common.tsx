@@ -1,29 +1,29 @@
 import { FC } from 'react';
 import Link from 'next/link';
-import styles from '../../styles/components/header.module.scss';
+import s from '../../styles/components/header.module.scss';
 import { useRouter } from 'next/router';
 
 const Header: FC = () => {
 	const { pathname } = useRouter();
 	return (
-		<div className={styles['nav-container']}>
-			<div className={styles['gradient']}></div>
-			<nav className={styles['nav']}>
+		<div className={s['nav-container']}>
+			<div className={s['gradient']}></div>
+			<nav className={s['nav']}>
 				<Link href='/'>
-					<a className={styles['brand']}>Jedidiah.dev</a>
+					<a className={s['brand']}>Jedidiah.dev</a>
 				</Link>
-				<div className={styles['nav-items']}>
+				<div className={s['nav-items']}>
 					<Link href='/about'>
-						<a className={pathname === '/about' ? styles['nav-active'] : ''}>About</a>
+						<a className={pathname === '/about' ? s['nav-active'] : ''}>About</a>
 					</Link>
 					<Link href='/projects'>
-						<a className={pathname === '/projects' ? styles['nav-active'] : ''}>Projects</a>
+						<a className={pathname === '/projects' ? s['nav-active'] : ''}>Projects</a>
 					</Link>
 					<Link href='/tools'>
-						<a className={pathname === '/tools' ? styles['nav-active'] : ''}>Tools</a>
+						<a className={pathname === '/tools' ? s['nav-active'] : ''}>Tools</a>
 					</Link>
 					<Link href='/colors'>
-						<a className={pathname === '/colors' ? styles['nav-active'] : ''}>Colors</a>
+						<a className={pathname === '/colors' ? s['nav-active'] : ''}>Colors</a>
 					</Link>
 				</div>
 			</nav>
