@@ -27,10 +27,11 @@ body {
 		font-size: $text-sm;
 	}
 	overflow: hidden;
+	line-height: 1.65rem;
 }
 
 main {
-	max-width: 1308px;
+	max-width: 880px;
 	margin: 3rem auto;
 }
 
