@@ -26,8 +26,9 @@ body {
 	@media (max-width: 600px) {
 		font-size: $text-sm;
 	}
-	overflow: hidden;
+	overflow-x: hidden;
 	line-height: 2rem;
+	min-height: 100vh;
 }
 
 main {
