@@ -8,6 +8,12 @@
 	animation: gradient-hover 30s ease infinite;
 }
 
+.nav-container {
+	position: fixed;
+	top: 0;
+	backdrop-filter: blur(30px);
+}
+
 .nav {
 	line-height: 1.5rem;
 	padding: 5px;
