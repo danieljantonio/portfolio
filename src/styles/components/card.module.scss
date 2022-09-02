@@ -15,9 +15,24 @@
 		min-width: 75px;
 		height: 75px;
 		width: 75px;
-		background: linear-gradient(75deg, #23a6d5, #23d5ab);
 		border-radius: 1rem;
 		margin: 0.5rem;
+	}
+	.cb-0 {
+		border: 1px solid white;
+		background: linear-gradient(45deg, #23a6d5, #23d5ab);
+	}
+	.cb-1 {
+		border: 1px solid white;
+		background: linear-gradient(45deg, #7ee8fa, #eec0c6);
+	}
+	.cb-2 {
+		border: 1px solid white;
+		background: linear-gradient(45deg, #380036, #0cbaba);
+	}
+	.cb-3 {
+		border: 1px solid white;
+		background: linear-gradient(45deg, #ffa69e, #861657);
 	}
 	.card-content {
 		margin: 0 1rem;

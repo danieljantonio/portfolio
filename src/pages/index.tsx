@@ -1,6 +1,7 @@
 import { faGithubAlt, faInstagram, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import type { NextPage } from 'next';
 import Head from 'next/head';
+import Card from '../components/common/card.common';
 import LinkIcon from '../components/common/link-icon.common';
 import s from '../styles/pages/index.module.scss';
 
@@ -28,6 +29,23 @@ const Home: NextPage = () => {
 					<LinkIcon url='https://www.twitter.com/danieljdanielj/' icon={faTwitter} />
 				</div>
 				<hr />
+			</div>
+			<div>
+				<div className='header'>Past Projects</div>
+				<Card
+					colorCode='0'
+					title='Shalom Plaques'
+					stack='NextJS, React, Express, MongoDB, Typescript'
+					body="Product catalogue enabling customers to browse through the company's products and search for the product they need."
+					href={'https://github.com/jedidiahaaaaa/shalom-plaques'}
+				/>
+				<Card
+					colorCode='1'
+					title='Pustaka Jasa'
+					stack='React, React Native, Express, MongoDB, Stripe'
+					body="An eCommerce app that allows parents to purchase their children's needs from the comfort of their home."
+					href={'https://play.google.com/store/apps/details?id=com.pustakajasa.esmartapps&hl=en_SG&gl=US'}
+				/>
 			</div>
 		</>
 	);
