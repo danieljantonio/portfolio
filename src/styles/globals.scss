@@ -36,6 +36,10 @@ main {
 	padding: 10rem 0px;
 	min-height: calc(100vh - 50px);
 	margin: 0 auto;
+
+	@media (max-width: 890px) {
+		margin: 0 2rem;
+	}
 }
 
 a {
@@ -51,6 +55,7 @@ a {
 	color: $text-light;
 	font-size: $text-title;
 	margin-bottom: 3rem;
+	line-height: 4rem;
 }
 
 .header {
@@ -61,6 +66,7 @@ a {
 
 .paragraph {
 	padding-bottom: 2rem;
+	text-align: justify;
 }
 
 .highlight {
