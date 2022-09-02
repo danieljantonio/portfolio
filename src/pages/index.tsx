@@ -13,11 +13,11 @@ const Home: NextPage = () => {
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 			<div>
-				<div className='title'>Hi, I'm Daniel J. Antonio</div>
+				<div className='title'>Hi, I&apos;m Daniel J. Antonio</div>
 				<div className='paragraph'>
 					I am a full stack web developer based in Indonesia who builds and creates eCommerce, CMS, and SaaS applications. For the past 3 years I have worked as a remote web application developer for{' '}
 					<a href='https://pixlr.com' target='_blank' className='highlight'>
-						"Pixlr"
+						&ldquo;Pixlr&rdquo;
 					</a>{' '}
 					(2019 - 2021) while working on various freelance projects on the side to date.
 				</div>

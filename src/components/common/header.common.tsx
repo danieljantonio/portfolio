@@ -23,7 +23,7 @@ const Header: FC = () => {
 						<a className={pathname === '/projects' ? s['nav-active'] : ''}>Projects</a>
 					</Link>
 					<Link href='/tech-stack'>
-						<a className={pathname === '/tech-stack' ? s['nav-active'] : ''}>Tech Stack</a>
+						<a className={pathname === '/tech-stack' ? s['nav-active'] : ''}>Tech</a>
 					</Link>
 				</div>
 			</nav>

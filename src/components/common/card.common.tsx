@@ -1,6 +1,5 @@
 import { useRouter } from 'next/router';
 import { FC } from 'react';
-import { Url } from 'url';
 import s from '../../styles/components/card.module.scss';
 
 interface Props {
