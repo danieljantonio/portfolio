@@ -33,7 +33,9 @@ body {
 
 main {
 	max-width: 880px;
-	margin: 10rem auto 5rem;
+	padding: 10rem 0px;
+	min-height: calc(100vh - 50px);
+	margin: 0 auto;
 }
 
 a {
@@ -49,4 +51,28 @@ a {
 	color: $text-light;
 	font-size: $text-title;
 	margin-bottom: 3rem;
+}
+
+.header {
+	color: $text-light;
+	font-size: $text-header;
+	margin-bottom: 2rem;
+}
+
+.paragraph {
+	padding-bottom: 2rem;
+}
+
+.highlight {
+	color: $text-light;
+	border-bottom: 2px solid;
+	padding-bottom: 2px;
+	&:hover {
+		color: $text-highlight;
+	}
+}
+
+hr {
+	border-color: $text-highlight-light;
+	margin: 2rem auto;
 }

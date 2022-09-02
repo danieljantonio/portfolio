@@ -1,6 +1,8 @@
+import { faGithubAlt, faInstagram, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import Card from '../components/common/card.common';
+import LinkIcon from '../components/common/link-icon.common';
+import s from '../styles/pages/index.module.scss';
 
 const Home: NextPage = () => {
 	return (
@@ -11,20 +13,21 @@ const Home: NextPage = () => {
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 			<div>
-				<div>Home</div>
-				<Card
-					title='Shalom Plaques'
-					stack='React, React Native, Express, MongoDB, Stripe'
-					body="An eCommerce app that allows parents to purchase their children's needs from the comfort of their home."
-					href={'https://github.com/jedidiahaaaaa/shalom-plaques'}
-				/>
-				<Card
-					title='Pustaka Jasa'
-					stack='React, React Native, Express, MongoDB, Stripe'
-					body="An eCommerce app that allows parents to purchase their children's needs from the comfort of their home."
-					href={'https://play.google.com/store/apps/details?id=com.pustakajasa.esmartapps&hl=en_SG&gl=US'}
-				/>
-				<Card title='Pustaka Jasa' stack='React, React Native, Express, MongoDB, Stripe' body="An eCommerce app that allows parents to purchase their children's needs from the comfort of their home." href={'https://google.com'} />
+				<div className='title'>Hi, I'm Daniel J. Antonio</div>
+				<div className='paragraph'>
+					I am a full stack web developer based in Indonesia who builds and creates eCommerce, CMS, and SaaS applications. For the past 3 years I have worked as a remote web application developer for{' '}
+					<a href='https://pixlr.com' target='_blank' className='highlight'>
+						"Pixlr"
+					</a>{' '}
+					(2019 - 2021) while working on various freelance projects on the side to date.
+				</div>
+				<div className={s['icon-container']}>
+					<LinkIcon url='https://github.com/jedidiahaaaaa' icon={faGithubAlt} />
+					<LinkIcon url='https://www.linkedin.com/in/daniel-antonio-647329161/' icon={faLinkedin} />
+					<LinkIcon url='https://www.instagram.com/jedidiahaaaaa/' icon={faInstagram} />
+					<LinkIcon url='https://www.twitter.com/danieljdanielj/' icon={faTwitter} />
+				</div>
+				<hr />
 			</div>
 		</>
 	);
