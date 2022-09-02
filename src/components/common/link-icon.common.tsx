@@ -10,7 +10,7 @@ interface Props {
 
 const LinkIcon: FC<Props> = ({ url, icon }) => {
 	return (
-		<a href={url} className={s['mini-link']} target='_blank'>
+		<a href={url} className={s['mini-link']} target='_blank' rel='noreferrer'>
 			<FontAwesomeIcon icon={icon} />
 		</a>
 	);
