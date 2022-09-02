@@ -27,12 +27,12 @@ body {
 		font-size: $text-sm;
 	}
 	overflow: hidden;
-	line-height: 1.65rem;
+	line-height: 2rem;
 }
 
 main {
 	max-width: 880px;
-	margin: 3rem auto;
+	margin: 5rem auto;
 }
 
 a {
@@ -42,4 +42,10 @@ a {
 
 * {
 	box-sizing: border-box;
+}
+
+.title {
+	color: $text-light;
+	font-size: $text-title;
+	margin-bottom: 3rem;
 }

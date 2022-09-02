@@ -13,17 +13,17 @@ const Header: FC = () => {
 					<a className={s['brand']}>Jedidiah.dev</a>
 				</Link>
 				<div className={s['nav-items']}>
+					<Link href='/'>
+						<a className={pathname === '/' ? s['nav-active'] : ''}>Home</a>
+					</Link>
 					<Link href='/about'>
 						<a className={pathname === '/about' ? s['nav-active'] : ''}>About</a>
 					</Link>
 					<Link href='/projects'>
 						<a className={pathname === '/projects' ? s['nav-active'] : ''}>Projects</a>
 					</Link>
-					<Link href='/tools'>
-						<a className={pathname === '/tools' ? s['nav-active'] : ''}>Tools</a>
-					</Link>
-					<Link href='/colors'>
-						<a className={pathname === '/colors' ? s['nav-active'] : ''}>Colors</a>
+					<Link href='/tech-stack'>
+						<a className={pathname === '/tech-stack' ? s['nav-active'] : ''}>Tech Stack</a>
 					</Link>
 				</div>
 			</nav>
