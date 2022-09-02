@@ -4,7 +4,7 @@ import Card from '../components/common/card.common';
 const Projects: NextPage = () => {
 	return (
 		<div>
-			<h1 className='title'>Projects</h1>
+			<div className='title'>Projects</div>
 			<div></div>
 			<Card
 				title='Shalom Plaques'
