@@ -6,7 +6,7 @@ const About: NextPage = () => {
 	return (
 		<div className={s['about']}>
 			<div className={s['image-container']}>
-				<Image src='/static/images/daniel-drumming.jpg' className={s['image']} height={500} width={880} />
+				<Image src='/static/images/daniel-drumming.jpg' className={s['image']} height={500} width={880} alt='daniel drumming' />
 			</div>
 			<div className={s['text-container']}>
 				<div className={s['header']}>Who am I?</div>
