@@ -13,13 +13,30 @@
 	}
 	.text-container {
 		padding: 0 3rem;
-		.header {
-			font-size: $text-header;
-			margin-bottom: 1rem;
+	}
+	.header {
+		font-size: $text-header;
+		margin-bottom: 1rem;
+	}
+	.paragraph {
+		padding-bottom: 2rem;
+		text-align: justify;
+	}
+	.row-experience {
+		display: flex;
+		justify-content: space-between;
+		.highlight {
+			color: $text-light;
 		}
-		.paragraph {
-			padding-bottom: 2rem;
-			text-align: justify;
+		.work-date {
+			width: 15%;
+			float: right;
+		}
+		.work-details {
+			width: 85%;
+			display: flex;
+			justify-content: space-between;
+			padding-right: 1rem;
 		}
 	}
 }
