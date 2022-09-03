@@ -26,7 +26,7 @@ const About: NextPage = () => {
 					and trading stocks recently.
 				</div>
 				<div className={s['paragraph']}>
-					If you'd like to know more about me and my activities, feel free to follow me on{' '}
+					If you&apos;d like to know more about me and my activities, feel free to follow me on{' '}
 					<a className='highlight' href='https://instagram.com/jedidiahaaaaa' target='_blank' rel='noreferrer'>
 						Instagram
 					</a>{' '}
