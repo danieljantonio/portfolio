@@ -1,0 +1,25 @@
+@import '../variables.scss';
+
+.about {
+	.image-container {
+		overflow: hidden;
+		margin-bottom: 3rem;
+		z-index: 0;
+		.image {
+			border-radius: 0.5rem;
+			object-fit: cover;
+			filter: brightness(80%);
+		}
+	}
+	.text-container {
+		padding: 0 3rem;
+		.header {
+			font-size: $text-header;
+			margin-bottom: 1rem;
+		}
+		.paragraph {
+			padding-bottom: 2rem;
+			text-align: justify;
+		}
+	}
+}
