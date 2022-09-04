@@ -12,7 +12,6 @@ interface Props {
 
 const Card: FC<Props> = ({ title, body, href, stack, colorCode }) => {
 	const router = useRouter();
-	console.log(`${s['card-brand']} ${s[`cb-${colorCode}`]}`);
 
 	return (
 		<div className={s['card']} onClick={() => router.push(href)}>
