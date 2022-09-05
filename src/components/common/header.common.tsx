@@ -22,8 +22,8 @@ const Header: FC = () => {
 					<Link href='/projects'>
 						<a className={pathname === '/projects' ? s['nav-active'] : ''}>Projects</a>
 					</Link>
-					<Link href='/tech-stack'>
-						<a className={pathname === '/tech-stack' ? s['nav-active'] : ''}>Tech</a>
+					<Link href='/contact'>
+						<a className={pathname === '/contact' ? s['nav-active'] : ''}>Contact</a>
 					</Link>
 				</div>
 			</nav>
