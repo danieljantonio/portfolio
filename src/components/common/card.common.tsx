@@ -19,7 +19,7 @@ const Card: FC<Props> = ({ title, body, href, stack, colorCode }) => {
 			<div className={s['card-content']}>
 				<div className={s['card-header']}>
 					<div className={s['card-title']}>{title}</div>
-					{stack ? <div>{stack}</div> : <></>}
+					{stack ? <div className={s['card-stack']}>{stack}</div> : <></>}
 				</div>
 				<div className={s['card-body']}>{body}</div>
 			</div>
