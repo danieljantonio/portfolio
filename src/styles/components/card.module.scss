@@ -20,7 +20,8 @@
 		margin: 0.5rem;
 	}
 	.card-stack {
-		text-align: right;
+		font-style: italic;
+		font-weight: normal;
 	}
 	.card-content {
 		margin: 0 1rem;
@@ -53,6 +54,7 @@
 	}
 	.card-header {
 		margin-bottom: 2rem;
+		flex-direction: column;
 	}
 	.card-title {
 		width: 60%;
