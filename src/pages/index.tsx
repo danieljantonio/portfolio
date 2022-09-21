@@ -37,7 +37,7 @@ const Home: NextPage = () => {
 					title='Shalom Plaques'
 					stack='NextJS, React, Express, MongoDB, Typescript'
 					body="Product catalogue enabling customers to browse through the company's products and search for the product they need."
-					href={'https://github.com/jedidiahaaaaa/shalom-plaques'}
+					href={'http://157.230.38.3/'}
 				/>
 				<Card
 					colorCode='1'

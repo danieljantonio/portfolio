@@ -11,7 +11,7 @@ const Projects: NextPage = () => {
 				title='Shalom Plaques'
 				stack='React, React Native, Express, MongoDB, Stripe'
 				body="An eCommerce app that allows parents to purchase their children's needs from the comfort of their home."
-				href={'https://github.com/jedidiahaaaaa/shalom-plaques'}
+				href={'http://157.230.38.3/'}
 			/>
 			<Card
 				colorCode='1'
