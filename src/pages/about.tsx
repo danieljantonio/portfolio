@@ -42,18 +42,18 @@ const About: NextPage = () => {
 				<div className={s['text-container']}>
 					<div className={s['header']}>Work Experience</div>
 					<div className={s['row-experience']}>
+						<div className={s['highlight']}>Freelance</div>
 						<div className={s['work-details']}>
-							<div className={s['highlight']}>Freelance</div>
 							<div className={s['work-role']}>Full Stack | Mobile Developer</div>
+							<div className={s['work-date']}>2019 - Present</div>
 						</div>
-						<div className={s['work-date']}>2019 -</div>
 					</div>
 					<div className={s['row-experience']}>
+						<div className={s['highlight']}>Pixlr</div>
 						<div className={s['work-details']}>
-							<div className={s['highlight']}>Pixlr</div>
 							<div className={s['work-role']}>Web Application Developer</div>
+							<div className={s['work-date']}>2019 - 2021</div>
 						</div>
-						<div className={s['work-date']}>2019 - 2021</div>
 					</div>
 				</div>
 			</div>

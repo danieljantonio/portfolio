@@ -30,14 +30,32 @@
 			color: $text-light;
 		}
 		.work-date {
-			width: 15%;
+			width: 30%;
 			float: right;
+			text-align: left;
+			margin-left: 2rem;
 		}
 		.work-details {
-			width: 85%;
+			min-width: 60%;
 			display: flex;
-			justify-content: space-between;
+			justify-content: end;
 			padding-right: 1rem;
 		}
+	}
+}
+
+@media (max-width: 890px) {
+	.row-experience {
+		flex-direction: column;
+		.highlight {
+			font-size: $text-lg;
+		}
+		margin-bottom: 2rem;
+	}
+	.text-container {
+		padding: 0 1rem !important;
+	}
+	.work-date {
+		text-align: right !important;
 	}
 }
