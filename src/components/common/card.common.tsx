@@ -11,10 +11,8 @@ interface Props {
 }
 
 const Card: FC<Props> = ({ title, body, href, stack, colorCode }) => {
-	const router = useRouter();
-
 	return (
-		<div className={s['card']} onClick={() => router.push(href)}>
+		<a href={href} className={s['card']} target='_blank' rel='noreferrer'>
 			<div className={`${s['card-brand']} ${s[`cb-${colorCode}`]}`}></div>
 			<div className={s['card-content']}>
 				<div className={s['card-header']}>
@@ -23,7 +21,7 @@ const Card: FC<Props> = ({ title, body, href, stack, colorCode }) => {
 				</div>
 				<div className={s['card-body']}>{body}</div>
 			</div>
-		</div>
+		</a>
 	);
 };
 
