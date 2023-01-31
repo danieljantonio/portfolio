@@ -6,7 +6,13 @@ const Projects: NextPage = () => {
 		<div>
 			<div className='title'>Projects</div>
 			<div></div>
-			<Card colorCode='0' title='Shalom Plaques' stack='NextJS, React, Express, MongoDB, Typescript' body="An eCommerce app that allows parents to purchase their children's needs from the comfort of their home." href={'http://157.230.38.3/'} />
+			<Card
+				colorCode='0'
+				title='Shalom Plaques'
+				stack='NextJS, React, Express, MongoDB, Typescript'
+				body="An eCommerce app that allows parents to purchase their children's needs from the comfort of their home."
+				href={'https://shalomplaques.com'}
+			/>
 			<Card
 				colorCode='1'
 				title='Pustaka Jasa'
