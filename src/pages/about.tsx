@@ -30,10 +30,10 @@ const About: NextPage = () => {
 					<a className='highlight' href='https://instagram.com/jedidiahaaaaa' target='_blank' rel='noreferrer'>
 						Instagram
 					</a>{' '}
-					and{' '}
+					{/* and{' '}
 					<a className='highlight' href='https://twitter.com/danieljdanielj' target='_blank' rel='noreferrer'>
 						Twitter
-					</a>
+					</a> */}
 					.
 				</div>
 			</div>

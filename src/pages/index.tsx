@@ -23,10 +23,10 @@ const Home: NextPage = () => {
 					(2019 - 2021) while working on various freelance projects on the side to date.
 				</div>
 				<div className={s['icon-container']}>
-					<LinkIcon url='https://github.com/jedidiahaaaaa' icon={faGithubAlt} />
+					<LinkIcon url='https://github.com/danieljantonio' icon={faGithubAlt} />
 					<LinkIcon url='https://www.linkedin.com/in/daniel-antonio-647329161/' icon={faLinkedin} />
 					<LinkIcon url='https://www.instagram.com/jedidiahaaaaa/' icon={faInstagram} />
-					<LinkIcon url='https://www.twitter.com/danieljdanielj/' icon={faTwitter} />
+					{/* <LinkIcon url='https://www.twitter.com/danieljdanielj/' icon={faTwitter} /> */}
 				</div>
 				<hr />
 			</div>
