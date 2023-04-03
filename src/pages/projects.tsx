@@ -1,5 +1,5 @@
-import { NextPage } from 'next';
 import Card from '../components/common/card.common';
+import { NextPage } from 'next';
 
 const Projects: NextPage = () => {
 	return (

@@ -1,8 +1,9 @@
 import { faGithubAlt, faInstagram, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
-import type { NextPage } from 'next';
-import Head from 'next/head';
+
 import Card from '../components/common/card.common';
+import Head from 'next/head';
 import LinkIcon from '../components/common/link-icon.common';
+import type { NextPage } from 'next';
 import s from '../styles/pages/index.module.scss';
 
 const Home: NextPage = () => {
@@ -37,7 +38,7 @@ const Home: NextPage = () => {
 					title='Shalom Plaques'
 					stack='NextJS, React, Express, MongoDB, Typescript'
 					body="Product catalogue enabling customers to browse through the company's products and search for the product they need."
-					href={'http://157.230.38.3/'}
+					href={'https://shalomplaques.com/'}
 				/>
 				<Card
 					colorCode='1'
